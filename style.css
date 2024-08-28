@@ -229,7 +229,7 @@ button
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    margin-left: 15%;
+    margin-left: 20%;
     z-index: 9999;
     margin-top: -50px;
     box-shadow: #06112a;
@@ -530,21 +530,97 @@ text-align: center;
     width: 80px;
 margin-top: 10px;
 }
-.aboutus{
-    height: 100vh;
+.aboutuscontainer{
+    height: 180vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutimg1{
+ height: 152vh;
+    width: 30vw;
+    flex: 1;
+}
+.aboutimg1 img{
+    margin-left: 50px;
+    width:89%;
+    height: 100%;
+}
+.abouttxtandimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 2;
     
 }
+.abouttext{
+    max-width: 80%;
+}
+#aboutp{
+    color: #999999;
+}
 
+.aboutrating{
+    margin-right: 100px;
+    height: 100px;
+    display: flex;
+    column-gap: 20px;
+}
+ #ratingp{
+    font-size: 14px;
+    color: #5ea51d;}
 
+.abouttxtandimg img{
+    margin-top: 50px;
+width: 90%;
 
+}
+.greencontainer{
+    height: 40vh;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: .9;
+  background-image: url("images/bg_4.jpg.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+position: relative;
+}
+.greenoverlay{
+    position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .9;
+  background: #5ea51d;
+  z-index: -1;
+}
 
+.greentext{
+    max-width: 35%;
+    color: white;
+}
+.greencontainer button{
+    color: white;
+    background-color: #000000;
+    height: 60px;
+    width: 150px;
+}
+.testmonialcontainer{
+    height: 100vh;
+    width: 100%;
+    background-color:#99999928;
+}
 
+.agentscontainer{
+    height: 100vh;
+    width: 100%;
 
-
-
-
-
+}
 footer{
    height: 20vh;
    width: 100%;
