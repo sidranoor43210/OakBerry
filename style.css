@@ -29,7 +29,17 @@ align-items: center;
 font-size: small;
 flex-wrap: wrap;
 }
-.headicon {
+.headicon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.411);
+    margin-right: 10px;
+}
+.headicon img{
     width: 20px; 
     height: 20px; 
    
@@ -404,7 +414,7 @@ input{
     text-align: center !important;
 }
 .propertycards{
-    height: 90vh;
+    height: 80vh;
  display: flex;
     justify-content: center;
     align-items: center;
@@ -413,7 +423,7 @@ input{
 .propertycard1 , .propertycard2 , 
 .propertycard3 , .propertycard4{
     background-color: white;
-    height: 70vh;
+    height: 65vh;
 }
 .price{
     background-color: #3f4042;
@@ -479,13 +489,23 @@ color: #3f40429f;
 font-size: 14px;
 padding-left: 20px;
 }
+.countrysale i{
+    margin-right: 5px;
+    color: #5ea51d;
+}
+.countryrent i{
+    margin-right: 5px;
+    color: #5ea51d;
+}
 #sale{
     background-color:#5ea51d;
     width: 35px;
+    height: 25px;
+    text-align: center;
 font-size: 14px;
     color: #fff;
     margin-left: 40px;
-    text-align: center;
+   
 }
 .countryrent{
     height: 20px;
@@ -504,6 +524,21 @@ font-size: 14px;
     color: #fff;
     margin-left: 40px;
     text-align: center;
+}
+.propertyinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-top: 10px;
+    color: #999999;
+}
+.propertyinfo span{
+margin-right: 20px;
+}
+.propertyinfo img{
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
 }
 
 .videocontainer{
