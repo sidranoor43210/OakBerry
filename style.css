@@ -8,12 +8,13 @@ line-height: 1.8;
 
     font-family: "Nunito Sans", Arial, sans-serif;
 }
+
 header{
     height:15vh;
     width: 100%;
     background: #06112a;
     color: #999999;
-    display: flex;
+     display: flex; 
     justify-content: center;
     align-items: center;
     font-size: small;
@@ -23,11 +24,11 @@ header{
 }
 .header{
 width: 75%;
-display: flex;
+ display: flex;
 justify-content: center;
 align-items: center;
 font-size: small;
-flex-wrap: wrap;
+flex-wrap: wrap; 
 }
 .headicon{
     height: 35px;
@@ -646,16 +647,96 @@ position: relative;
     width: 150px;
 }
 .testmonialcontainer{
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-color:#99999928;
+
+}
+.testmonialtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.testmonialtext p{
+color: #5ea51d;
+font-size: 12px;
+margin-top: 100px;
 }
 
+.testmonialcards{
+    height: 70vh;
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testcardtext{
+  margin: 10px;
+}
+.testcard1 , .testcard2 , .testcard3{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .testpersondetail{
+    display: flex;
+    margin: 10px;
+}
+.testcard1 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.testcard2 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.testcard3 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    gap: 5px;
+    margin-left: 50%;
+        justify-content: center;
+    align-items: center;
+    }
+.circle1{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #77787993;
+}
+.circle2{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #4d4e50;
+}
 .agentscontainer{
     height: 100vh;
     width: 100%;
-
 }
+
+
+
+
+
+
+
+
 footer{
    height: 20vh;
    width: 100%;
