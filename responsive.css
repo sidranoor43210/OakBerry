@@ -6,6 +6,7 @@ justify-content: flex-start;
 align-items: flex-start;
 margin-top: 30px;
 margin-left: 20px;
+
    }
    header{
        width: 100%;
@@ -15,9 +16,6 @@ justify-content: flex-start;
 align-items: flex-start;
    }
 
-.headcontainer{
-   display: flex;
-}
 .navbar{
    background-color: #081637;
 }
