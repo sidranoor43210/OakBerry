@@ -70,8 +70,6 @@
         <button id="learnbtn">Learn More &rarr;</button>
       </div>
     </div>
-
-
     <div class="navbar">
       <div class="navigationbar">
         <div class="logo">
@@ -79,27 +77,26 @@
           <p id="p1">Real Estate Agency</p>
         </div>
         <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Properties</a></li>
-            <li><a href="#">Agents</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Contact</a></li>
+          <ul class="navul">
+            <li class="navli"><a href="#">Home</a></li>
+            <li class="navli"><a href="#">About</a></li>
+            <li class="navli"><a href="#">Properties</a></li>
+            <li class="navli"><a href="#">Agents</a></li>
+            <li class="navli"><a href="#">Blogs</a></li>
+            <li class="navli"><a href="#">Contact</a></li>
           </ul>
         </nav>
-        <button><a href="" style="font-size: 14px; color: #fff;">
+        <button class="navbtn"><a href="" style="font-size: 14px; color: #fff;">
             Submit A Property</a></button>
       </div>
     </div>
-  
   </div>
-  
+  <div class="popupoverlay">
+  <div class="buyandrent">
+    <button class="buybtn">Buy Properties</button>
+    <button class="rentbtn">Rent Properties</button>
+  </div>
   <div class="popup">
-    <div class="buyandrent">
-      <button class="buybtn">Buy Properties</button>
-      <button class="rentbtn">Rent Properties</button>
-    </div>
     <div class="searchproperties">
       <label>ENTER KEYWORD
         <input type="text" placeholder="&#8919; Enter Keyword">
@@ -113,13 +110,14 @@
       <label>PRICE LIMIT
         <input type="text" placeholder="&#8964; $100">
       </label>
-      <button  class="searchbtn">Search</button>
+      <label class="labelsearch">Search</label>
     </div>
+  </div>
   </div>
   <herosection>
     <div class="herocontainer">
       <p>OAKBERRY CATEGORY</p>
-      <h2>Explore Our Categories & Places</h1>
+      <h1>Explore Our Categories & Places</h1>
 
       <div class="cards">
         <div class="card1">
@@ -145,7 +143,8 @@
 
         <div class="citycard1">
           <h4>New York</h4>
-          <button class="citybutton">200 Properties</button>
+          <button class="citybutton">
+            200 Properties</button>
         </div>
         <div class="citycard2">
           <h4>California</h4>
@@ -387,7 +386,9 @@
 
 <div class="testmonialcards">
 <div class="testcard1">
-<i></i>
+
+  <i class="fa fa-quote-left"></i>
+
 <div class="testcardtext">
 <p>Far far away,behind the word mountains,
   far from the countries Vokalia and Consonantia, there live the blinds texts.</p>
@@ -402,7 +403,7 @@ font-size: 14px;">MARKETING MANAGER</p></div>
 </div>
 </div>
  <div class="testcard2" >
-  <i></i>
+  <i class="fa fa-quote-left"></i>
   <div class="testcardtext">
   <p>Far far away,behind the word mountains,
     far from the countries Vokalia and Consonantia, there live the blinds texts.</p>
@@ -418,7 +419,7 @@ font-size: 14px;">MARKETING MANAGER</p></div>
   </div>
   </div>
 <div class="testcard3">
-  <i></i>
+  <i class="fa fa-quote-left"></i>
   <div class="testcardtext">
   <p>Far far away,behind the word mountains,
     far from the countries Vokalia and Consonantia, there live the blinds texts.</p>
