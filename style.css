@@ -1154,7 +1154,7 @@ li a{
 footer{
    height: 20vh;
    width: 100%;
- background-color: #050d21 !important;
+ background-color: #050d21;
   color: #999999;
   display: flex;
   flex-wrap: wrap;

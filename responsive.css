@@ -1,0 +1,399 @@
+/* Base mobile styles */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        /* Adjust font size for smaller screens */
+    }
+
+    header,
+    .headcontainer,
+    .header {
+        height: auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .header {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .headicon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .headicon img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .nav {
+        height: auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .overlay>div {
+        width: 90%;
+        max-width: none;
+        font-size: 18px;
+    }
+
+    #text-1 h2,
+    #text-2 h2,
+    #text-3 h2 {
+        font-size: 40px;
+        /* Smaller font size for mobile screens */
+    }
+
+    #learnbtn {
+        width: 80%;
+        height: 40px;
+        margin-top: 10%;
+    }
+
+    .navigationbar {
+        height: 80px;
+        background-color: #081637;
+    }
+
+    .logo {
+        margin-left: 2%;
+
+    }
+
+    nav {
+        display: none;
+    }
+
+    .navbtn {
+        display: none;
+    }
+
+    .popupoverlay {
+        margin-top: -100px;
+        width: 100%;
+        height: 500px;
+        display: flex;
+    }
+
+    .popup {
+        width: 75%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    label {
+        flex-direction: column;
+        display: flex;
+        height: 80px;
+        font-size: 14px;
+    }
+
+    .searchproperties {
+        font-size: 16px;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .labelsearch {
+        width: 100%;
+        height: 30px;
+    }
+
+    .buyandrent {
+        flex-direction: column;
+    }
+
+    .buybtn,
+    .rentbtn {
+        width: 50%;
+    }
+
+    .herocontainer {
+        height: auto;
+        margin-top: 10px;
+        ;
+    }
+
+    .herocontainer h1 {
+        font-size: 45px;
+    }
+
+    .cards,
+    .citycards {
+        flex-direction: column;
+        width: 98%;
+    }
+
+    .citycards {
+        margin-left: 300px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .citycard1,
+    .citycard2,
+    .citycard3,
+    .citycard4,
+    .citycard5,
+    .citycard6,
+    .citycard7,
+    .citycard8,
+    .citycard9,
+    .citycard10,
+    .citycard11,
+    .citycard12 {
+        width: 100%;
+        margin: 2px;
+    }
+
+    .propertiescontainer {
+        height: auto;
+        padding: 10px;
+        width: 100%;
+    }
+    .person {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .countrysale {
+        height: 40px;
+        width: 200px;
+    }
+
+    .countryrent {
+        height: 40px;
+        width: 200px;
+    }
+
+    .propertyinfo {
+        justify-content: flex-start;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .propertycards {
+        margin-top: 40px;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .propertycard1,
+    .propertycard2,
+    .propertycard3,
+    .propertycard4 {
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .price {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .propertyimages {
+        width: 100%;
+    }
+.videocontainer{
+    height: 600px;
+    width: 100%;
+}
+.videotext{
+   max-width:80%;
+}
+    .aboutuscontainer {
+        margin-top: 100px;
+        height:auto;
+        flex-direction: column;
+    }
+
+    .aboutimg1 {
+    display: none;
+    }
+.aboutrating{
+    flex-direction: column;
+    height:400px ;
+}
+    .abouttxtandimg {
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 95%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .greencontainer {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+.greentext{
+    max-width: 90%;
+    height: auto;
+}
+    .greencontainer button {
+        width: 20%;
+        height: 50px;
+    }
+
+    .testmonialcontainer {
+        height: auto;
+        padding: 20px;
+        width: 100%;
+    }
+    .testmonialtext p {
+        font-size: 14px;
+    }
+    .testmonialtext h1 {
+        font-size: 50px;
+    }
+.testcard3{
+    display: none;
+}
+    .testcard1,
+    .testcard2 {
+        width: 90%;
+    }
+
+
+    .agentscontainer {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+.ouragents{
+    padding-top: 200px;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+    .agentcards {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .agentcard1,
+    .agentcard4 {
+     height: 500px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .socialagentaccount {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+
+
+    .blogscontainer {
+        padding: 10px;
+        height: auto;
+        padding-top: 100px;
+
+    }
+
+    .blogcards {
+        width: 100%;
+        flex-direction: column;
+        background-color: #ffffff;
+    }
+
+    .blogcard1 {
+        width: 99%;
+        height: 500px;
+    }
+
+    .blogimg {
+        height: 300px;
+    }
+
+    .gallerycontainer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .galleryimages {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .searchicon {
+        color: #f5f3f3;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+    }
+
+    .searchicon:hover {
+        opacity: 1;
+        background-color: #2b2c2a4f;
+
+    }
+
+    .searchicon i:hover {
+        opacity: 1;
+    }
+.footerinfo{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+    .footercontainer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .col1 {
+        height: 200px;
+        width: 100%;
+    }
+    ul {
+        height: 50px;
+        margin-top: 0px;
+        list-style: none;
+    }
+footer{
+width: 100%;
+    height: 100px;
+}
+
+
+
+}
